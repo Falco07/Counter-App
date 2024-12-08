@@ -27,7 +27,7 @@ export default function Counter(){
             <h2 className="header">You clicked: {count} times</h2>
             <div>
             <input value={number} type="number" onChange={handleNumber}/>
-            <button onClick={handleButton} className="addValue">Add Value</button>
+            <button onClick={handleButton} className="addValue">Add</button>
             </div>
             <div className="buttons">
             <button className="but" onClick={increment}>Increase</button>
